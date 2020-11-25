@@ -1,0 +1,153 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background: #f0f0f0; */
+}
+
+
+/* NAVBAR */
+header{
+    background: rgb(10, 189, 135);
+    padding: 15px 0 ;
+    display: flex;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 84%;
+    margin: 0 auto;
+    align-items: center;
+	min-height: 8vh;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.logo {
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 28px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-links li:not(:first-child) {
+    margin-left: 45px;
+}
+
+.nav-links a {
+    font-size: 18px;   
+}
+
+.nav-links a:hover {
+    color: rgb(7, 119, 85);
+    transition: .3s;
+}
+
+.login-button {
+    color: #f0f0f0;
+    margin-right: 120px;
+    padding: 9px 25px;
+    border: .5px solid rgb(7, 119, 85);
+    border-radius: 50px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-button:hover {
+    transition: 0.3s ease 0s;
+    background-color: rgb(7, 119, 85);
+}
+
+
+/* FOOTER */
+footer {
+    background: rgb(7, 119, 85);
+    padding-top: 40px;
+}
+
+.roda-pe {
+    display: flex;
+    justify-content: space-around;
+    width: 84%;
+    margin: 0 auto;
+    border-bottom: 50px;
+    border-color: black;
+}
+
+.roda-pe a {
+    color: #f0f0f0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.col:not(:first-child) {
+    margin-left: 12%;
+}
+
+.col li {
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.footer-social-links {
+    flex-direction: row;
+    display: flex;
+    width: auto;
+}
+
+section .social-media {
+    display: block;
+    /* margin-top: 40px; */
+}
+
+.social-media h2 {
+    color: #f0f0f0;
+    font-weight: 350;
+    text-align: left;
+    font-weight: 350;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.social-media img {
+    fill: #f0f0f0;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.social-media .footer-icon {
+    display: flex;
+}
+
+.footer-icon-item:not(:first-child) {
+    margin-left: 10px;
+}
+
+.social-media i {
+    color: #c5c5c5d8;
+    font-size: 30px;
+}
+
+.copyright {
+    padding-top: 15px;
+    padding-bottom: 6px;
+    color: #c5c5c5b0;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 12px;
+}
