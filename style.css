@@ -136,6 +136,57 @@ header h4 {
   }
 }
 
+/* MAIN */
+main {
+  background-color: #e6e6e6;
+  /* background-color: #f0f0f0; */
+}
+
+.content {
+  width: 100%;
+  /* height: 660px; */
+  height: 100vh;
+}
+
+.under-construction {
+  /* display: flex; */
+  height: 100%;
+}
+
+.image {
+  /* display: block; */
+}
+
+.construction {
+  display: inline-block;
+  width: 65vw;
+  /* height: 65vh; */
+  text-align: center;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin-left: 11vw;
+  margin-right: auto;
+  padding-top: 45px; */
+  /* width: 50%; */
+}
+
+.construction-text {
+  color: rgba(36, 36, 36, 0.774);
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.construction-text {
+  display: flex;
+}
+
+.construction-text h3 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* FOOTER */
 footer {
   background: rgb(7, 119, 85);
